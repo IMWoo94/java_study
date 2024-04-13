@@ -1,0 +1,15 @@
+[16:39:54.562 [Test worker] INFO org.example.thread.ThreadTest -- thread name : Test worker
+U16:39:54.563 [Test worker] INFO org.example.thread.ThreadTest -- thread group : main
+|16:39:54.563 [Thread-3] INFO org.example.thread.ThreadTest -- Wating name : 1 / customThread name : Thread-3 / group : main
+|16:39:54.564 [Thread-4] INFO org.example.thread.ThreadTest -- Wating name : 2 / customThread name : Thread-4 / group : main
+Å16:39:54.564 [Thread-6] INFO org.example.thread.ThreadTest -- Wating name : 4 / customThread name : Thread-6 / group : new Group
+Å16:39:54.564 [Thread-5] INFO org.example.thread.ThreadTest -- Wating name : 3 / customThread name : Thread-5 / group : new Group
+Å16:39:54.564 [Thread-7] INFO org.example.thread.ThreadTest -- Wating name : 5 / customThread name : Thread-7 / group : new Group
+V16:39:54.564 [Thread-6] INFO org.example.thread.ThreadTest -- InterruptedException!!!
+U16:39:54.564 [Thread-6] INFO org.example.thread.ThreadTest -- Wating name : 4 finish
+V16:39:54.564 [Thread-3] INFO org.example.thread.ThreadTest -- InterruptedException!!!
+U16:39:54.564 [Thread-3] INFO org.example.thread.ThreadTest -- Wating name : 1 finish
+V16:39:54.564 [Thread-5] INFO org.example.thread.ThreadTest -- InterruptedException!!!
+U16:39:54.564 [Thread-5] INFO org.example.thread.ThreadTest -- Wating name : 3 finish
+V16:39:54.564 [Thread-7] INFO org.example.thread.ThreadTest -- InterruptedException!!!
+U16:39:54.565 [Thread-7] INFO org.example.thread.ThreadTest -- Wating name : 5 finish
